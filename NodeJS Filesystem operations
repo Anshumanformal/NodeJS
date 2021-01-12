@@ -18,3 +18,6 @@ fs.renameSync('MyProgram/bio.txt','MyProgram/mybio.txt');
 
 //To delete a file using file system in NodeJS.
 fs.unlinkSync('MyProgram/mybio.txt');
+
+//To delete a directory using file system in NodeJS.
+fs.rmdirSync("MyProgram");
