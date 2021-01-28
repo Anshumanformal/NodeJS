@@ -9,4 +9,4 @@ This will do the work.
 
 Difference between object and JSON?
 Ans. In object, only values have double quotes.
-Whereas in JSON, both property and value have double quotes.
+Whereas in JSON, both property(i.e. key) and value have double quotes.
