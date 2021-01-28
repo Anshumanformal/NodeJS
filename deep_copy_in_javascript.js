@@ -19,3 +19,24 @@ The destination object contains a separate copy of name, age,
 Separate Reference for Complex Objects is created.
 
 */
+
+//Eg.
+
+var userInfo = {
+  name: "Anshuman",
+  age: 22,
+  designation: "developer",
+  address: {
+    streetNumber: 10,
+    city: "Delhi",
+    country: "India"
+  }
+}
+
+var stringifiedObject = JSON.stringify(userInfo);
+
+var newDeepCopy = JSON.parse(stringifiedObject);
+
+console.dir(newDeepCopy)
+
+
