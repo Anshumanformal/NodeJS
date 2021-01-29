@@ -33,3 +33,43 @@ Note:
    When promise is rejected --> .catch is called
 
 */
+
+// const recordVideoone = new Promise((resolve, reject) => {
+//   resolve("Task 1 completed");
+// });
+
+// const recordVideotwo = new Promise((resolve, reject) => {
+//   resolve("Task 2 completed");
+// });
+
+// const recordVideothree = new Promise((resolve, reject) => {
+//   resolve("Task 3 completed");
+// });
+
+// //Promise.all function.
+// /*
+// Promise.all is actually a promise
+// that takes an array of promises as an
+// input (an iterable). Then it gets resolved
+// when all the promises get resolved or
+// any one of them gets rejected.
+
+// */
+
+// // Promise.all([recordVideoone, recordVideotwo, recordVideothree]).then(
+// //   (messages) => {
+// //     console.log(messages);
+// //   }
+// // );
+
+// //Promise.race --> This prints the first promise which gets completed.
+
+// Promise.race([recordVideoone, recordVideotwo, recordVideothree]).then(
+//   (message) => {
+//     console.log(message);
+//   }
+// );
+
+
+
+
