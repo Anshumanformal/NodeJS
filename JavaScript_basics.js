@@ -40,3 +40,14 @@ typeof null                // object
 
 null === undefined         // false
 null == undefined          // true
+
+
+var person = {name:"John", age:50, city:"New York"};
+
+//Conversion of JavaScript object into array using Object.values().
+
+var myArray = Object.values(person);   //Object.values(<objectname>) converts object into array.
+document.getElementById("demo").innerHTML = myArray;
+
+
+
